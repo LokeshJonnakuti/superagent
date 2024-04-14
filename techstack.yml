@@ -1,0 +1,1147 @@
+repo_name: LokeshJonnakuti/superagent
+report_id: d6118a35fbd381d6edf29b923a80cb18
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-14T10:53:25+00:00'
+requested_by: Briah
+provider: github
+branch: main
+detected_tools_count: 83
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/prisma/migrations/20230822214343_agent_llm/migration.sql
+  detection_source: libs/superagent/prisma/migrations/20230822214343_agent_llm/migration.sql
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-13 13:55:37.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-13 13:55:37.000000000 Z
+- name: FastAPI
+  description: A high performance, easy to learn, fast to code, ready for production
+    web framework
+  website_url: https://fastapi.tiangolo.com/
+  version: 0.95.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-05-10 20:12:57.000000000 Z
+- name: Next.js
+  description: A small framework for server-rendered universal JavaScript apps
+  website_url: https://nextjs.org/
+  version: 13.5.2
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package-lock.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-13 13:55:37.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-13 13:55:37.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-13 13:55:37.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/embed/package-lock.json
+  detection_source: libs/embed/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-08-15 19:22:46.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-13 13:55:37.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/.docker/docker-compose.yml
+  detection_source: libs/.docker/docker-compose.yml
+  last_updated_by: bbfred
+  last_updated_on: 2023-09-29 07:16:10.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.22.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/embed/package-lock.json
+  detection_source: libs/embed/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-08-15 19:22:46.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/embed/package.json
+  detection_source: libs/embed/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-08-15 19:22:46.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-06-27 12:13:46.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.8.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package-lock.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-13 13:55:37.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/pyproject.toml
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-05-10 20:12:57.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.88.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/embed/package-lock.json
+  detection_source: libs/embed/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-08-15 19:22:46.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-13 13:55:37.000000000 Z
+- name: Replicate
+  description: Run machine learning models with a few lines of code
+  website_url: https://replicate.com/
+  version: 0.15.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning as a Service
+  image_url: https://img.stackshare.io/service/21709/default_e8df7b9f7533c3ea041cf8ded59b2c12e7466b67.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-10-12 07:22:11.000000000 Z
+- name: Stripe
+  description: Payments for developers
+  website_url: https://stripe.com
+  open_source: false
+  hosted_saas: true
+  category: Payments
+  sub_category: Payment Services
+  image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-28 19:40:13.000000000 Z
+- name: LLaMA
+  description: A foundational, 65-billion-parameter large language model (By Facebook)
+  website_url: https://ai.meta.com/blog/large-language-model-llama-meta-ai/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/101870/default_110df704ee9867cb49e02a51b680222cc0b61823.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/pyproject.toml
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-05-10 20:12:57.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  version: 0.0.334
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-11-12 13:35:36.000000000 Z
+- name: LlamaIndex
+  description: A central interface to connect your LLMs with external data
+  website_url: https://gpt-index.readthedocs.io/en/latest/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48791/default_350cf2fa84700345e34d9eef2ecc1aa29319e91a.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/pyproject.toml
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-13 13:55:37.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 1.1.1
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-05-10 20:12:57.000000000 Z
+- name: Pinecone
+  description: Build high-performance vector search applications
+  website_url: https://www.pinecone.io/
+  version: 2.2.4
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/48784/default_376332a8eee1cdbb0546ca1aaed0b8a7f4d673d7.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-13 13:55:37.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent
+  detection_source: Repo Metadata
+- name: Vercel AI SDK
+  description: An interoperable, streaming-enabled, edge-ready software development
+    kit for AI apps
+  website_url: https://sdk.vercel.ai/docs
+  version: 2.2.12
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/101756/default_4f2991cba3ec7fdd1cc87de69f4868157b0f2001.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package-lock.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-13 13:55:37.000000000 Z
+- name: Zod
+  description: TypeScript-first schema validation
+  website_url: https://zod.dev/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/48521/default_eea961e4c374e68a1c7eb5bbc9e4a39920890342.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-13 13:55:37.000000000 Z
+- name: eslint-plugin-tailwindcss
+  description: Rules enforcing best practices and consistency using Tailwind CSS.
+  website_url: https://www.npmjs.com/package/eslint-plugin-tailwindcss
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/48327/default_e1e547104832f8e187369b19e928e17a8be5020b.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-21 22:25:25.000000000 Z
+- name: sharp
+  description: High performance Node.js image processing
+  package_url: https://www.npmjs.com/sharp
+  version: 0.31.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16806/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package-lock.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-13 13:55:37.000000000 Z
+  vulnerabilities:
+  - name: sharp vulnerability in libwebp dependency CVE-2023-4863
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-54xq-cgqr-rpm3
+    detected_date: Nov 17
+    severity: high
+    first_patched: 0.32.6
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.22.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/embed/package-lock.json
+  detection_source: libs/embed/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-08-15 19:22:46.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.22.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/embed/package-lock.json
+  detection_source: libs/embed/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-08-15 19:22:46.000000000 Z
+- name: "@babel/preset-react"
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/@babel/preset-react
+  version: 7.22.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/embed/package-lock.json
+  detection_source: libs/embed/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-08-15 19:22:46.000000000 Z
+- name: "@emotion/styled"
+  description: Styled API for emotion
+  package_url: https://www.npmjs.com/@emotion/styled
+  version: 11.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16702/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/embed/package-lock.json
+  detection_source: libs/embed/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-13 13:55:37.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 20.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/embed/package-lock.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-28 19:40:13.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.2.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package-lock.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-11-24 21:45:48.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package-lock.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-11-24 21:45:48.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 9.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package-lock.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-28 19:40:13.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.62.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package-lock.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-11-24 21:45:48.000000000 Z
+- name: ai
+  description: The Vercel AI SDK is **a library for building AI-powered streaming
+    text and chat UIs**
+  package_url: https://www.npmjs.com/ai
+  version: 2.2.12
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package-lock.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-13 13:55:37.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 9.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/embed/package-lock.json
+  detection_source: libs/embed/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-08-15 19:22:46.000000000 Z
+- name: dayjs
+  description: 2KB immutable date time library alternative to Moment.js with the same
+    modern API
+  package_url: https://www.npmjs.com/dayjs
+  version: 1.11.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16833/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package-lock.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-13 13:55:37.000000000 Z
+- name: eslint-config-next
+  description: ESLint configuration used by Next.js
+  package_url: https://www.npmjs.com/eslint-config-next
+  version: 13.5.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package-lock.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-11-24 21:45:48.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package-lock.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-11-24 21:45:48.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.33.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package-lock.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-11-24 21:45:48.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/embed/package-lock.json
+  detection_source: libs/embed/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-08-15 19:22:46.000000000 Z
+- name: react-icons
+  description: SVG React icons of popular icon packs using ES6 imports
+  package_url: https://www.npmjs.com/react-icons
+  version: 4.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16909/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/embed/package-lock.json
+  detection_source: libs/embed/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-08-15 19:22:46.000000000 Z
+- name: react-markdown
+  description: Renders Markdown as React components
+  package_url: https://www.npmjs.com/react-markdown
+  version: 8.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17056/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package-lock.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-11-24 21:45:48.000000000 Z
+- name: react-syntax-highlighter
+  description: Syntax highlighting component for react with prismjs or highlightjs
+    ast using inline styles
+  package_url: https://www.npmjs.com/react-syntax-highlighter
+  version: 15.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17323/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package-lock.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-11-24 21:45:48.000000000 Z
+- name: react-textarea-autosize
+  description: Textarea component for React which grows with content
+  package_url: https://www.npmjs.com/react-textarea-autosize
+  version: 8.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18399/default_b6c55b4b82fd22f93807b75b975c6924c9bd8f73.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package-lock.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-11-24 21:45:48.000000000 Z
+- name: remark-gfm
+  description: Remark plugin to support GFM
+  package_url: https://www.npmjs.com/remark-gfm
+  version: 3.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package-lock.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-13 13:55:37.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/ui/package-lock.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-13 13:55:37.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 8.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/embed/package-lock.json
+  detection_source: libs/ui/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-13 13:55:37.000000000 Z
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 5.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/embed/package-lock.json
+  detection_source: libs/embed/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-08-15 19:22:46.000000000 Z
+- name: webpack-dev-server
+  description: Serves a webpack app. Updates the browser on changes
+  package_url: https://www.npmjs.com/webpack-dev-server
+  version: 4.15.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/embed/package-lock.json
+  detection_source: libs/embed/package.json
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-08-15 19:22:46.000000000 Z
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/project/black
+  version: 23.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-05-11 12:05:45.000000000 Z
+  vulnerabilities:
+  - name: Black vulnerable to Regular Expression Denial of Service (ReDoS)
+    cve_id: CVE-2024-21503
+    cve_url: https://github.com/advisories/GHSA-fj7x-q9j7-g6q6
+    detected_date: Mar 21
+    severity: moderate
+    first_patched: 24.3.0
+- name: langchain-experimental
+  description: Building applications with LLMs through composability
+  package_url: https://pypi.org/project/langchain-experimental
+  version: 0.0.37
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-11-20 20:14:52.000000000 Z
+  vulnerabilities:
+  - name: LangChain Experimental vulnerable to arbitrary code execution
+    cve_id: CVE-2024-27444
+    cve_url: https://github.com/advisories/GHSA-v8vj-cv27-hjv8
+    detected_date: Feb 27
+    severity: moderate
+    first_patched: 0.0.52
+- name: langchain
+  description: Building applications with LLMs through composability
+  package_url: https://pypi.org/project/langchain
+  version: 0.0.334
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-11-20 20:14:52.000000000 Z
+  vulnerabilities:
+  - name: LangChain directory traversal vulnerability
+    cve_id: CVE-2024-28088
+    cve_url: https://github.com/advisories/GHSA-h59x-p739-982c
+    detected_date: Mar 7
+    severity: low
+    first_patched: 0.0.339
+  - name: langchain Server-Side Request Forgery vulnerability
+    cve_id: CVE-2024-0243
+    cve_url: https://github.com/advisories/GHSA-h9j7-5xvc-qhg5
+    detected_date: Feb 27
+    severity: low
+    first_patched: 0.1.0
+- name: algoliasearch
+  description: Algolia Search API Client for Python
+  package_url: https://pypi.org/project/algoliasearch
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-11-15 08:53:34.000000000 Z
+- name: asyncio
+  description: Reference implementation of PEP 3156
+  package_url: https://pypi.org/project/asyncio
+  version: 3.4.3
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-07-31 21:59:49.000000000 Z
+- name: backoff
+  description: Function decoration for backoff and retry
+  package_url: https://pypi.org/project/backoff
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19988/default_aa331bbc48e2faa54aa26e08880b772595f833b8.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Vasek Mlejnsky
+  last_updated_on: 2023-10-16 06:44:50.000000000 Z
+- name: bcrypt
+  description: Modern password hashing for your software and your servers
+  package_url: https://pypi.org/project/bcrypt
+  version: 4.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20031/default_242158225818ea25f0ab9031a46e17f8ff8246cb.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-05-11 08:13:12.000000000 Z
+- name: bs4
+  description: Dummy package for Beautiful Soup
+  package_url: https://pypi.org/project/bs4
+  version: 0.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19906/default_2aeed05332f0410b54817405c7e8e202a7e763cf.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-05-10 20:12:57.000000000 Z
+- name: colorlog
+  description: Log formatting with colors!
+  package_url: https://pypi.org/project/colorlog
+  version: 6.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19948/default_611a1328f69b729fac0a7b8bf87ff04e8ce35e17.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Daniel Ransom
+  last_updated_on: 2023-07-27 17:56:23.000000000 Z
+- name: flake8
+  description: 'The modular source code checker: pep8, pyflakes and co'
+  package_url: https://pypi.org/project/flake8
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19920/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-05-12 21:39:46.000000000 Z
+- name: gunicorn
+  description: WSGI HTTP Server for UNIX
+  package_url: https://pypi.org/project/gunicorn
+  version: 20.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Vasek Mlejnsky
+  last_updated_on: 2023-10-16 06:44:50.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  version: 1.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-11-07 19:53:17.000000000 Z
+- name: openpyxl
+  description: A Python library to read/write Excel 2010 xlsx/xlsm files
+  package_url: https://pypi.org/project/openpyxl
+  version: 3.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19895/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-11-07 19:53:17.000000000 Z
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/project/pydantic
+  version: 1.10.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-05-10 20:12:57.000000000 Z
+- name: pydub
+  description: Manipulate audio with an simple and easy high level interface
+  package_url: https://pypi.org/project/pydub
+  version: 0.25.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-11-07 21:37:32.000000000 Z
+- name: pytest
+  description: 'Pytest: simple powerful testing with Python'
+  package_url: https://pypi.org/project/pytest
+  version: 7.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19843/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-13 13:55:37.000000000 Z
+- name: python-decouple
+  description: Strict separation of settings from code
+  package_url: https://pypi.org/project/python-decouple
+  version: '3.8'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20545/default_7b61da87043cab6a451d00283941da078ee5c9d9.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-11-21 22:50:04.000000000 Z
+- name: python-docx
+  description: Create and update Microsoft Word .docx files
+  package_url: https://pypi.org/project/python-docx
+  version: 0.8.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-11-21 22:50:04.000000000 Z
+- name: python-slugify
+  description: A Python Slugify application that handles Unicode
+  package_url: https://pypi.org/project/python-slugify
+  version: 8.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19986/default_aa331bbc48e2faa54aa26e08880b772595f833b8.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-11-21 22:50:04.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.31.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-21 08:50:14.000000000 Z
+- name: tabulate
+  description: Pretty-print tabular data
+  package_url: https://pypi.org/project/tabulate
+  version: 0.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19864/default_7975a21f3bf03129dc3bc4168cf7cb7ee2cc14cc.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-15 07:35:27.000000000 Z
+- name: uvicorn
+  description: The lightning-fast ASGI server
+  package_url: https://pypi.org/project/uvicorn
+  version: 0.22.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20431/default_f824837db22536768ec317b67275fa384fad7d47.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Vasek Mlejnsky
+  last_updated_on: 2023-10-16 06:44:50.000000000 Z
+- name: vulture
+  description: Find dead code
+  package_url: https://pypi.org/project/vulture
+  version: '2.10'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-20 13:15:54.000000000 Z
+- name: xmltodict
+  description: Makes working with XML feel like you are working with JSON
+  package_url: https://pypi.org/project/xmltodict
+  version: 0.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19902/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/LokeshJonnakuti/superagent/blob/main/libs/superagent/poetry.lock
+  detection_source: libs/superagent/pyproject.toml
+  last_updated_by: Ismail Pelaseyed
+  last_updated_on: 2023-09-14 06:50:30.000000000 Z
