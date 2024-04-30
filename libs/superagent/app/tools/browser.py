@@ -1,7 +1,7 @@
 import aiohttp
-import requests
 from bs4 import BeautifulSoup
 from langchain.tools import BaseTool
+from security import safe_requests
 
 
 class Browser(BaseTool):
@@ -13,7 +13,7 @@ class Browser(BaseTool):
     return_direct = False
 
     def _run(self, url: str) -> None:
-        response = requests.get(url)
+        response = safe_requests.get(url)
         soup = BeautifulSoup(response.text, "html.parser")
         return soup.get_text()
 
