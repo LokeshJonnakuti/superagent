@@ -64,7 +64,7 @@ class AstraClient:
             self.create_url,
             headers=self.request_header,
             data=json.dumps(create_query),
-        )
+        timeout=60)
         if resp.status_code == 200:
             pass
         else:
@@ -79,7 +79,7 @@ class AstraClient:
             self.create_url,
             headers=self.request_header,
             data=json.dumps(find_query),
-        )
+        timeout=60)
         text_response = json.loads(resp.text)
 
         collection_output = list(
@@ -176,7 +176,7 @@ class AstraClient:
             self.request_url,
             headers=self.request_header,
             data=query,
-        )
+        timeout=60)
         response_dict = json.loads(response.text)
         if response.status_code == 200:
             if "data" in response_dict and "documents" in response_dict["data"]:
@@ -210,7 +210,7 @@ class AstraClient:
                 self.request_url,
                 headers=self.request_header,
                 data=query,
-            )
+            timeout=60)
 
             # if the id doesn't exist, prepare record for inserting
             if json.loads(result.text)["data"]["document"] == None:
@@ -244,7 +244,7 @@ class AstraClient:
                     self.request_url,
                     headers=self.request_header,
                     data=query,
-                )
+                timeout=60)
                 response_dict = json.loads(result.text)
 
                 if "status" not in response_dict:
@@ -270,7 +270,7 @@ class AstraClient:
                 self.request_url,
                 headers=self.request_header,
                 data=query,
-            )
+            timeout=60)
             response_dict = json.loads(result.text)
 
             if "status" not in response_dict:
@@ -297,7 +297,7 @@ class AstraClient:
             self.request_url,
             headers=self.request_header,
             data=json.dumps(query),
-        )
+        timeout=60)
         return response
 
     def describe_index_stats(self):
@@ -306,8 +306,8 @@ class AstraClient:
         query = json.dumps({"findCollections": {"options": {"explain": True}}})
         try:
             response = requests.request(
-                "POST", url, headers=self.request_header, data=query
-            )
+                "POST", url, headers=self.request_header, data=query, 
+            timeout=60)
             response_dict = json.loads(response.text)
         except Exception as e:
             raise Exception(
@@ -334,8 +334,8 @@ class AstraClient:
         # get number of vectors in collection
         query = json.dumps({"countDocuments": {}})
         response = requests.request(
-            "POST", self.request_url, headers=self.request_header, data=query
-        )
+            "POST", self.request_url, headers=self.request_header, data=query, 
+        timeout=60)
         vector_count = json.loads(response.text)["status"]["count"]
 
         result = {

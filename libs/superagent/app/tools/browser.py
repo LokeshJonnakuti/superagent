@@ -13,7 +13,7 @@ class Browser(BaseTool):
     return_direct = False
 
     def _run(self, url: str) -> None:
-        response = requests.get(url)
+        response = requests.get(url, timeout=60)
         soup = BeautifulSoup(response.text, "html.parser")
         return soup.get_text()
 
