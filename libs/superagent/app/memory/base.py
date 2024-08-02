@@ -2,6 +2,7 @@ from typing import Any, Dict, List, Optional, Tuple
 
 import requests
 from decouple import config
+from security import safe_requests
 
 MANAGED_URL = config("MEMORY_API_URL")
 
@@ -29,7 +30,7 @@ class Memory:
         return headers
 
     async def init(self) -> Tuple[str, List[Any]]:
-        res = requests.get(
+        res = safe_requests.get(
             f"{self.url}/sessions/{self.session_id}/memory",
             timeout=self.timeout,
             headers=self.__get_headers(),

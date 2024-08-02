@@ -1,5 +1,4 @@
 # flake8: noqa
-import requests
 import pandas as pd
 
 from io import StringIO
@@ -14,6 +13,7 @@ from prisma.models import Datasource
 from langchain.agents.agent_types import AgentType
 from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
 from langchain.chat_models.openai import ChatOpenAI
+from security import safe_requests
 
 
 class DatasourceFinetuneTool(BaseTool):
@@ -106,7 +106,7 @@ class StructuredDatasourceTool(BaseTool):
     def _load_xlsx_data(self, datasource: Datasource):
         with NamedTemporaryFile(suffix=".xlsx", delete=True) as temp_file:
             if datasource.url:
-                response = requests.get(datasource.url)
+                response = safe_requests.get(datasource.url)
                 temp_file.write(response.content)
             else:
                 temp_file.write(datasource.content)
@@ -116,7 +116,7 @@ class StructuredDatasourceTool(BaseTool):
 
     def _load_csv_data(self, datasource: Datasource):
         if datasource.url:
-            response = requests.get(datasource.url)
+            response = safe_requests.get(datasource.url)
             file_content = StringIO(response.text)
         else:
             file_content = StringIO(datasource.content)
