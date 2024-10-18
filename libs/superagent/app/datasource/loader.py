@@ -58,7 +58,7 @@ class DataLoader:
     def load_txt(self):
         with NamedTemporaryFile(suffix=".txt", delete=True) as temp_file:
             if self.datasource.url:
-                file_response = requests.get(self.datasource.url).text
+                file_response = requests.get(self.datasource.url, timeout=60).text
             else:
                 file_response = self.datasource.content
             temp_file.write(file_response.encode())
@@ -85,7 +85,7 @@ class DataLoader:
 
         with NamedTemporaryFile(suffix=".pptx", delete=True) as temp_file:
             if self.datasource.url:
-                file_response = requests.get(self.datasource.url).content
+                file_response = requests.get(self.datasource.url, timeout=60).content
             else:
                 file_response = self.datasource.content
             temp_file.write(file_response)
@@ -102,7 +102,7 @@ class DataLoader:
     def load_docx(self):
         with NamedTemporaryFile(suffix=".docx", delete=True) as temp_file:
             if self.datasource.url:
-                file_response = requests.get(self.datasource.url).content
+                file_response = requests.get(self.datasource.url, timeout=60).content
             else:
                 file_response = self.datasource.content
             temp_file.write(file_response)
@@ -113,7 +113,7 @@ class DataLoader:
     def load_markdown(self):
         with NamedTemporaryFile(suffix=".md", delete=True) as temp_file:
             if self.datasource.url:
-                file_response = requests.get(self.datasource.url).text
+                file_response = requests.get(self.datasource.url, timeout=60).text
             else:
                 file_response = self.datasource.content
             temp_file.write(file_response.encode())

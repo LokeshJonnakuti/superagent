@@ -16,7 +16,7 @@ class Agent(BaseTool):
             "authorization": f"Bearer {api_key}",
         }
         data = {"enableStreaming": False, "input": input}
-        response = requests.post(url=url, headers=headers, json=data)
+        response = requests.post(url=url, headers=headers, json=data, timeout=60)
         output = response.json()
         return output.get("data")
 
